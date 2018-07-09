@@ -1,14 +1,12 @@
-def prime?(n)
- array = []
- factor = 2 
- 
- while n > 1 
-    if (n%factor == 0)
-      array << factor
-      n /= factor
-    else 
-      factor += 1 
-    return array
-    end
+def prime?(number)
+ if number <= 1
+  return false 
+end
+
+(2..number).each do |x|
+  if number%x == 0
+    return false 
   end
+end
+true 
 end
