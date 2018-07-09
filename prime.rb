@@ -17,5 +17,6 @@ def prime?(number)
     return false 
   end
 end
+# Returns true if previous test conditions were unfulfilled
 return true 
 end
