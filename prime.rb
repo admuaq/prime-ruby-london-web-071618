@@ -10,7 +10,7 @@ def prime?(number)
 
   # Here we create an iterator with a range from 2-(number -1) and fo each element we execute the following block code
   
-  (2...number).each do |i| # Where i is the name of argument
+  (2...number).each do |i| # Where i is the name of variable counter
   if number%i == 0
     return false 
   end
