@@ -8,7 +8,8 @@ def prime?(number)
   return false 
   end
 
-  # Here we create an array with a range from 2-(number -1) and fo each element we execute the following block code
+  # Here we create an iterator with a range from 2-(number -1) and fo each element we execute the following block code
+  
   (2...number).each do |i| # Where i is the name of argument
   if number%i == 0
     return false 
