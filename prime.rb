@@ -1,7 +1,8 @@
 # A Prime Number is divisible by only itself and 1.
 # If we calculate the modulo of a chosen divided by another
 # we should get the number 1. (As there will always be a remainder)
-def prime?(number)
+
+def prime?(number) 
  if number <= 1
   return false 
   end
