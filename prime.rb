@@ -10,7 +10,7 @@ def prime?(number)
 
   # Here we use an iterator method to loop over a range from 2-(number -1) and fo each element we execute the following block code
   # Where i is a variable representing a value from the range.
-  # if function 
+  # if conditional loop tests if values calculated are equal to 0 and returns false if the modulo returns value 0
   
   (2...number).each do |i|
   if number%i == 0
