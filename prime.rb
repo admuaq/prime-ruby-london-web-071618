@@ -4,7 +4,7 @@ def prime?(number)
 end
 
 (2...number).each do |i|
-  if number%x == 0
+  if number%i == 0
     return false 
   end
 end
